@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>W3.CSS Template</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    </head>
+<body>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-wide w3-padding w3-card">
+            <a href="#home" class="w3-bar-item w3-button"><b>VIVIZ</b> Architects</a>
+            <!-- Float links to the right. Hide them on small screens -->
+            <div class="w3-right w3-hide-small">
+                <a href="#projects" class="w3-bar-item w3-button">Projects</a>
+                <a href="#about" class="w3-bar-item w3-button">About</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+        <img class="w3-image" src="https://www.gannett-cdn.com/presto/2021/01/12/NPBD/08d0fd5e-2255-4d49-b608-e83342ae4615-PBN_POOL_REAR_535_N_County_Road_HiRes_PictureItSoldFL.jpg?width=1200&disable=upscale&format=pjpg&auto=webp" alt="Architecture" width="100%" height="auto">
+        <div class="w3-display-middle w3-margin-top w3-center">
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>VIVIZ</b></span> <span
+                    class="w3-hide-small w3-text-light-grey">Architects</span></h1>
+        </div>
+    </header>
+
+    <!-- Page content -->
+    <div class="w3-content w3-padding" style="max-width:1564px">
+
+        <!-- Project Section -->
+        <div class="w3-container w3-padding-32" id="projects">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Projects</h3>
+        </div>
+
+        <div class="w3-row-padding">
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
+                    <img src="https://images.adsttc.com/media/images/500f/3de3/28ba/0d0c/c700/22a6/large_jpg/stringio.jpg?1414058847" alt="House" width="100%" height="auto">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
+                    <img src="https://thumbs.dreamstime.com/b/two-story-brick-house-traditional-shutters-44086070.jpg" alt="House" width="100%" height="auto">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
+                    <img src="https://images.squarespace-cdn.com/content/v1/57c837262e69cf6dc3c7ef62/1586353730173-WZ5HJDPF9W8RAPHQ4UF6/Barn-House-Architect-Maryland.jpg" alt="House" width="100%" height="auto">
+                </div>
+            </div>
+            <div class="w3-col l3 m6 w3-margin-bottom">
+                <div class="w3-display-container">
+                    <div class="w3-display-topleft w3-black w3-padding">Renovated House</div>
+                    <img src="https://kottke.org/plus/misc/images/half-reno-houses-01.jpg" alt="House" width="100%" height="auto">
+                </div>
+            </div>
+        </div>
+
+        <!-- About Section -->
+        <div class="w3-container w3-padding-32" id="about">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+            <p>Welcome to VIVIZ Architects! We are a full-service architecture and design firm based in the heart of Downtown, specializing in creating unique, modern, and efficient designs for all types of projects. Our team understands that the success of any project lies in striking a balance between form and function, and we strive to create designs that are aesthetically pleasing as well as functional. With years of experience in both commercial and residential architecture and interior design, we bring a wealth of knowledge and creativity to every project we take on. No matter the size of your project, our team will provide tailored design solutions that reflect the individuality of your project and meet the specific needs of your client. We look forward to working with you!
+            </p>
+        </div>
+
+       
+        <!-- Contact Section -->
+        <div class="w3-container w3-padding-32" id="contact">
+            <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+            <p>Lets get in touch and talk about your dream project.</p>
+            <form action="/action_page.php" target="_blank">
+                <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+                <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+
+                <button onclick="myFunction()" class="w3-button w3-black w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE </button>
+                      <script>
+                         function myFunction() {
+                          alert("Your Details has been recorded and will be contacted by our executives shortly. Thank you!");
+                          }
+                            </script>
+            </form>
+        </div>
+
+</body>
+
+</html>
